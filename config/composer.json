@@ -1,0 +1,21 @@
+{
+    "name": "htl3r/monopolyeventcards",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tobias Seczer",
+            "email": "tobias.seczer@gmail.com"
+        }
+    ],
+    "require": {
+        "typo3fluid/fluid": "^2.6"
+    },
+    "require-dev": {
+        "typo3/fluid-schema-generator": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "monopolyeventcards\\config\\": ""
+        }
+    }
+}

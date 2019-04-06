@@ -1,0 +1,10 @@
+<div id="karte">
+    <h1 (click)="getCard()">CHANCE</h1>
+    <div id="body">
+        <p *ngIf="description as desc; else loading">{{desc | uppercase}}</p>
+        <ng-template #loading>
+            <p>Loading...</p>
+        </ng-template>
+        <img alt="Monopoly man" src="../../../assets/monopolyman.jpg">
+    </div>
+</div>

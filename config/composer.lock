@@ -1,0 +1,95 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "837fba7f4f35f39daf34023b3a9f8c97",
+    "packages": [
+        {
+            "name": "typo3fluid/fluid",
+            "version": "2.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3/Fluid.git",
+                "reference": "e3533d0b80e4020cf0de7a546efaae25866f898b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3/Fluid/zipball/e3533d0b80e4020cf0de7a546efaae25866f898b",
+                "reference": "e3533d0b80e4020cf0de7a546efaae25866f898b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.6",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^4.8",
+                "squizlabs/php_codesniffer": "^2.7"
+            },
+            "bin": [
+                "bin/fluid"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TYPO3Fluid\\Fluid\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "description": "The TYPO3 Fluid template rendering engine",
+            "time": "2018-12-07T14:46:13+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "typo3/fluid-schema-generator",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3/Fluid.SchemaGenerator.git",
+                "reference": "0fb3feca9c9412a0b7fe76e5e4b72059dc07d1bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3/Fluid.SchemaGenerator/zipball/0fb3feca9c9412a0b7fe76e5e4b72059dc07d1bc",
+                "reference": "0fb3feca9c9412a0b7fe76e5e4b72059dc07d1bc",
+                "shasum": ""
+            },
+            "require": {
+                "typo3fluid/fluid": "^1.0|^2.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5.7"
+            },
+            "bin": [
+                "bin/generateschema"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\FluidSchemaGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Generates XSD schemas for packages containing Fluid ViewHelpers",
+            "time": "2018-10-01T12:01:20+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

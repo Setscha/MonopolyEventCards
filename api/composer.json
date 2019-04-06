@@ -1,0 +1,19 @@
+{
+    "name": "htl3r/monopolyeventcards",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tobias Seczer",
+            "email": "tobias.seczer@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "monopolyeventcards\\ORM\\": "src/"
+        },
+        "psr-0": {"": "src/" }
+    }
+}
